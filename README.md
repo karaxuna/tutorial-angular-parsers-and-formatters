@@ -1,4 +1,4 @@
-## Simple prefix directive showing `$parsers` and `$formatters` in action
+## Simple prefix directive showing `$parsers` and `$formatters` in action ([DEMO](http://karaxuna.github.io/tutorial-angular-parsers-and-formatters/))
 
 Sometimes you want to format model value before displaying it in the input or
 want to parse value that user enters in input before updating model value. Angular has `$parsers` and `$formatters`
