@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body ng-app="app">
+        <!-- Example -->
+        <div ng-controller="exampleCtrl">
+            <div>
+                <h3><code>$viewValue</code> is text that you see in input</h3>
+                995<input type="text" ng-model="phoneNumber" prefix="995" />
+            </div>
+            <br/>
+            <div>
+                <h3>When <code>$viewValue</code> is changed, it goes through <code>$parsers</code> which prepend prefix</h3>
+                $modelValue: {{phoneNumber}}
+            </div>
+        </div>
+        
+        <!-- Load vendor files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+        
+        <!-- Load main file -->
+        <script src="./index.js"></script>
+    </body>
+</html>
