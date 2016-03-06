@@ -56,7 +56,7 @@ app.directive('prefix', [function () {
 
 `$parsers` and `$formatters` are properties of `ngModelController`. We can require model controller passing `require: 'ngModel'` option to directive. Then we have model controller available as 4th parameter of `link` function (`modelCtrl`).
 
-Directive in action:
+Use directive:
 
 ```html
 995<input type="text" ng-model="phoneNumber" prefix="995" />
@@ -65,3 +65,7 @@ Directive in action:
 ### Lifecycle
 
 ![process](./screens/process.png)
+
+### Running demo:
+1. Clone repository: `git clone https://github.com/karaxuna/tutorial-angular-parsers-and-formatters`
+2. Open `index.html` file in browser.
