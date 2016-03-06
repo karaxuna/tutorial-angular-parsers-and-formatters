@@ -45,7 +45,7 @@ app.directive('prefix', [function () {
                 }
             });
 
-            // This will execute every tame user types in input
+            // This will execute every time user types in input
             modelCtrl.$parsers.push(function prependPrefix(value) {
                 return attrs.prefix && value ? attrs.prefix + value : null;
             });
