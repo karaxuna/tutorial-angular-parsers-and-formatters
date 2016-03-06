@@ -1,4 +1,7 @@
-angular.module('app', []).directive('prefix', [function () {
+var app = angular.module('app', []);
+
+// Prefix directive
+app.directive('prefix', [function () {
     return {
         restrict: 'A',
         require: 'ngModel',
@@ -18,6 +21,7 @@ angular.module('app', []).directive('prefix', [function () {
     };
 }]);
 
+// Example controller
 angular.module('app').controller('exampleCtrl', ['$scope', function ($scope) {
     // Default phone number
     $scope.phoneNumber = '995112233';
