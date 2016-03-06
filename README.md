@@ -55,3 +55,7 @@ app.directive('prefix', [function () {
 ```
 
 `$parsers` and `$formatters` are properties of `ngModelController`. We can require model controller passing `require: 'ngModel'` option to directive. Then we have model controller available as 4th parameter of `link` function (`modelCtrl`).
+
+### Lifecycle
+
+![process](./screens/process.png)
